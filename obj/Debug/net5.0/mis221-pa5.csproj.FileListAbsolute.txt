@@ -1,0 +1,16 @@
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.csproj.AssemblyReference.cache
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.AssemblyInfoInputs.cache
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.AssemblyInfo.cs
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.csproj.CoreCompileInputs.cache
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.exe
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.deps.json
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.runtimeconfig.json
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.runtimeconfig.dev.json
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.dll
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\ref\mis221-pa5.dll
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\bin\Debug\net5.0\mis221-pa5.pdb
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.dll
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\ref\mis221-pa5.dll
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.pdb
+C:\Users\Reidg\OneDrive\Desktop\source\repos\mis221-pa5\obj\Debug\net5.0\mis221-pa5.genruntimeconfig.cache
