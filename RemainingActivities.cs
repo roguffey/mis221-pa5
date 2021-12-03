@@ -87,7 +87,7 @@ namespace mis221_pa5
             {
                 string[] temp = line.Split('#');
                 
-                if(temp[5]=="Yes" || temp[6] == "false")
+                if(temp[5]=="Yes" && temp[6] == "false")
                 {
                     Console.WriteLine(line);
                 }
