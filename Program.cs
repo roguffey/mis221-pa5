@@ -316,19 +316,53 @@ namespace mis221_pa5
         {
             SummaryReport report = new SummaryReport();
 
+            // Activity[] activities = Activity.getActivitiesFile();
+            // CompleteActivities[] completed = CompleteActivities.getCompletedFile();
+
             Console.WriteLine("Please select which reporting style you would like to preview:");
             int choice = 0;
             while (choice != 6)
             {
                 Console.WriteLine("1)	Trip Summary by Day");
-                Console.WriteLine("2)	Favorite Activities");
-                Console.WriteLine("3)	Rating");
-                Console.WriteLine("4)	Review");
-                Console.WriteLine("5)	Recommend to others");
+                Console.WriteLine("2)	Rating");
+                Console.WriteLine("3)	Incomplete");
+                Console.WriteLine("4)	Category");
+                Console.WriteLine("5)	Money Spent");
                 Console.WriteLine("6)   Exit");
                 choice = int.Parse(Console.ReadLine());
 
-                //insert if statements
+                // switch (choice)
+                // {
+                //     case 1:
+                //         Console.Clear();
+                //         report.byDayCompleted(completed);
+                //         break;
+                //     case 2:
+                //         Console.Clear();
+                //         report.byRatings(completed);
+                //         break;
+                //     case 3:
+                //         Console.Clear();
+                //         report.byIncomplete(activities);
+                //         break;
+                //     case 4:
+                //         Console.Clear();
+                //         report.byCategoryAndPrice(activities, completed);
+                //         break;
+                //     case 5:
+                //         Console.Clear();
+                //         report.byMoneySpent(activities, completed);
+                //         break;
+                //     case 6:
+                //         break;
+                //     default:        //if anything other than the choices on the menu are selected
+                //         Console.Clear();
+                //         Console.WriteLine("Error! Please enter a valid choice \nPlease enter any key to continue....");
+                //         Console.ReadKey();
+                //         Console.Clear();
+                //         break;
+                // }
+
 
                 Console.WriteLine("Would you like to either: \n1)       Save this report \n2)       Return to the menu");
                 choice = 0;
