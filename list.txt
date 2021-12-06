@@ -1,14 +1,15 @@
-1#Central Park#Outdoor#0-10#3#No#false#false
-1#Broadway Show#Entertainment#50-150#3#Yes#false#false
-1#Ice Skating at Rockefeller#Outdoor#20-55#2#Yes#false#false
-1#Hard Rock Cafe#Dining#30-60#2#No#false#false
-1#New York Pizza#Dining#10-20#1#No#false#false
-1#Statue of Liberty#Outdoor#30-40#4#Yes#false#false
-1#Times Square Ball Drop#Entertainment#300-500#4#Yes#false#false
-2#Flight#Travel#95-140#2#Yes#false#false
-2#Magic Kingdom#Theme Park#100-120#7#Yes#false#false
-2#Animal Kingdom#Theme Park#100-120#6#Yes#false#false
-2#Epcot#Theme Park#100-120#7#Yes#false#false
-2#Hollywood Studios#Theme Park#100-120#6#Yes#false#false
-2#Universal Studios#Theme Park#110-125#5#Yes#false#false
-2#Mall#Shopping#50-150#2#No#false#false
+1#Central Park#Outdoor#0-10#3#No#False#False
+1#Broadway Show#Entertainment#50-150#3#Yes#False#False
+1#Ice Skating at Rockefeller#Outdoor#20-55#2#Yes#False#False
+1#Hard Rock Cafe#Dining#30-60#2#No#False#False
+1#New York Pizza#Dining#10-20#1#No#False#False
+1#Statue of Liberty#Outdoor#30-40#4#Yes#False#False
+1#Times Square Ball Drop#Entertainment#300-500#4#Yes#False#False
+2#Flight#Travel#95-140#2#Yes#False#False
+2#Magic Kingdom#Theme Park#100-120#7#Yes#False#False
+2#Animal Kingdom#Theme Park#100-120#6#Yes#False#False
+2#Epcot#Theme Park#100-120#7#Yes#False#False
+2#Hollywood Studios#Theme Park#100-120#6#Yes#False#False
+2#Universal Studios#Theme Park#110-125#5#Yes#False#False
+2#Mall#Shopping#50-150#2#No#False#False
+4#fishing#outdoors#0-10#1#No#False#False

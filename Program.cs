@@ -39,7 +39,7 @@ namespace mis221_pa5
                         break;
                     case 4:
                         Console.Clear();
-                        CompleteActivities();
+                        CompletedActivities();
                         break;
                     case 5:
                         Console.Clear();
@@ -288,15 +288,18 @@ namespace mis221_pa5
             }
         }
 
-        static void CompleteActivities()
+        static void CompletedActivities()
         {
             CompleteActivities comActivities = new CompleteActivities();
+
+
 
             Console.WriteLine("Please enter the activity ID number you wish to mark as completed:");
 
             comActivities.selectActivityID();
 
-
+            Activity[] activities = Activity.getActivitiesFile();
+            CompleteActivities[] completed = CompleteActivities.getCompletedFile();
 
             Console.WriteLine("Please select which field of the activity you wish to fill out. Please choose one, you will return to this menu after the field is filled out:");
             int choice = 0;
@@ -310,14 +313,46 @@ namespace mis221_pa5
                 Console.WriteLine("6)   Exit");
                 choice = int.Parse(Console.ReadLine());
             }
+             switch (choice)
+                 {
+                     case 1:
+                        Console.Clear();
+                         comActivities.getDate();
+                         break;
+                     case 2:
+                         Console.Clear();
+                        comActivities.getSpendings();
+                         break;
+                     case 3:
+                         Console.Clear();
+                         comActivities.getRating();
+                         break;
+                     case 4:
+                         Console.Clear();
+                         comActivities.getReview();
+                         break;
+                     case 5:
+                        Console.Clear();
+                        comActivities.getRecommend();
+                        break;
+                    case 6:
+                        return;
+                        
+                    default:        //if anything other than the choices on the menu are selected
+                        Console.Clear();
+                        Console.WriteLine("Error! Please enter a valid choice \nPlease enter any key to continue....");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                }
         }
 
         static void SummaryReport()
         {
             SummaryReport report = new SummaryReport();
 
-            // Activity[] activities = Activity.getActivitiesFile();
-            // CompleteActivities[] completed = CompleteActivities.getCompletedFile();
+             Activity[] activities = Activity.getActivitiesFile();
+             CompleteActivities[] completed = CompleteActivities.getCompletedFile();
 
             Console.WriteLine("Please select which reporting style you would like to preview:");
             int choice = 0;
@@ -331,37 +366,38 @@ namespace mis221_pa5
                 Console.WriteLine("6)   Exit");
                 choice = int.Parse(Console.ReadLine());
 
-                // switch (choice)
-                // {
-                //     case 1:
-                //         Console.Clear();
-                //         report.byDayCompleted(completed);
-                //         break;
-                //     case 2:
-                //         Console.Clear();
-                //         report.byRatings(completed);
-                //         break;
-                //     case 3:
-                //         Console.Clear();
-                //         report.byIncomplete(activities);
-                //         break;
-                //     case 4:
-                //         Console.Clear();
-                //         report.byCategoryAndPrice(activities, completed);
-                //         break;
-                //     case 5:
-                //         Console.Clear();
-                //         report.byMoneySpent(activities, completed);
-                //         break;
-                //     case 6:
-                //         break;
-                //     default:        //if anything other than the choices on the menu are selected
-                //         Console.Clear();
-                //         Console.WriteLine("Error! Please enter a valid choice \nPlease enter any key to continue....");
-                //         Console.ReadKey();
-                //         Console.Clear();
-                //         break;
-                // }
+                 switch (choice)
+                 {
+                     case 1:
+                        Console.Clear();
+                         report.byDayCompleted(completed);
+                         break;
+                     case 2:
+                         Console.Clear();
+                        report.byRatings(completed);
+                         break;
+                     case 3:
+                         Console.Clear();
+                         report.byIncomplete(activities);
+                         break;
+                     case 4:
+                         Console.Clear();
+                         report.byCategoryAndPrice(activities, completed);
+                         break;
+                     case 5:
+                        Console.Clear();
+                      report.byMoneySpent(activities, completed);
+                        break;
+                    case 6:
+                        return;
+                        
+                    default:        //if anything other than the choices on the menu are selected
+                        Console.Clear();
+                        Console.WriteLine("Error! Please enter a valid choice \nPlease enter any key to continue....");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                }
 
 
                 Console.WriteLine("Would you like to either: \n1)       Save this report \n2)       Return to the menu");
